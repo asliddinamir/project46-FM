@@ -38,7 +38,7 @@ body {
     transform: translateY(-10rem);
     background: var(--White);
     border-radius: 20px;
-    min-width: 600px;
+    min-width: 610px;
     max-width: 610px;
     padding: 2rem;
     display: flex;
@@ -62,7 +62,7 @@ body {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-block: 1rem;
 }
 
 .questionDiv:hover .question {
@@ -81,8 +81,13 @@ body {
     line-height: 1.5;
     font-weight: 600;
     margin: 2rem 1rem;
+
 }
 
 .hr {
     border: .5px solid hsl(277, 45%, 92%);
+}
+
+.hidden {
+    display: none;
 }
