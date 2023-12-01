@@ -38,8 +38,7 @@ body {
     transform: translateY(-10rem);
     background: var(--White);
     border-radius: 20px;
-    min-width: 610px;
-    max-width: 610px;
+    width: 610px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -52,7 +51,7 @@ body {
     gap: 2rem;
 }
 
-.header span {
+.logo {
     font-size: 55px;
     font-weight: 600;
 }
@@ -102,4 +101,29 @@ body {
 
 .footer a {
     color: aqua;
+}
+
+.plus,
+.minus {
+    min-width: 30px;
+    height: 30px;
+}
+
+@media(max-width:650px) {
+    .container {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+
+    .answer {
+        margin: 1.5rem 0;
+    }
+
+    .logo {
+        font-size: 45px;
+    }
 }
