@@ -62,7 +62,7 @@ body {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin-block: 1rem;
+    margin-block: .5rem;
 }
 
 .questionDiv:hover .question {
@@ -73,6 +73,7 @@ body {
     font-size: 18.7px;
     color: #2f1533;
     font-weight: 600;
+    user-select: none;
 }
 
 .answer {
@@ -90,4 +91,14 @@ body {
 
 .hidden {
     display: none;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(179, 89, 107);
+    color: #fff;
+}
+
+.footer a {
+    color: aqua;
 }
