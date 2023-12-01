@@ -46,8 +46,43 @@ body {
     gap: 1rem;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header span {
+    font-size: 55px;
+    font-weight: 600;
+}
+
 .questionDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.questionDiv:hover .question {
+    color: #ad28eb;
+}
+
+.question {
+    font-size: 18.7px;
+    color: #2f1533;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 15px;
+    color: var(--Grayish-purple);
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 2rem 1rem;
+}
+
+.hr {
+    border: .5px solid hsl(277, 45%, 92%);
 }
